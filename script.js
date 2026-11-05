@@ -1,0 +1,1 @@
+(function(){document.querySelectorAll('.q').forEach(btn=>{btn.addEventListener('click',e=>{const a=e.currentTarget.nextElementSibling; const shown=a.style.display==='block';document.querySelectorAll('.a').forEach(x=>x.style.display='none'); if(!shown){a.style.display='block';}});});})();
